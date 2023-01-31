@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl"  >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membre de menage</title>
+    <script src="bd.js" defer></script>
+</head>
+<body>
+
+
+    <form>
+        <table>
+            <tr>
+            <th>02</th>
+            <th colspan="8">الارشدات الديمغرافية</th>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td>
+                <p>الاسم و اللقب</p>
+            </td>
+           <strong> <td><p>بين القرابة مع رئيس الاسرة</p></td></strong>
+            <strong><td><p>الجنس</p></td></strong>
+            <strong><td><p>الحالة الزواجية</p></td></strong>
+            <strong><td><p>تاريخ الولادة</p></td></strong>
+           <strong><td><p>العمربالسنوات</p></td></strong> 
+            <strong><td><p>المستوى التعليمي الدي بلغته بنجاح</p></td></strong>
+            <strong><td><p>الافراد المعينين بالاستمارة الفردية</p></td></strong>
+        </tr>
+        <tr>
+        <td>
+            <p>
+                <div><strong>حسب الترتيب التالي</strong></div>
+                    <div>رئيس الاسرة و زوجته-</div>
+                    <div>الابناء العزاب ابتداء من اصغرهم سنا-</div>
+                    <div>الابناء المتزوجين و افراد عائلتهم-</div>
+                    <div>بقية الاقارب-</div>
+                    <div>بقية الافراد غير الاقارب -</div>
+                    
+            </p>
+        </td>
+        <td>
+            <p>
+                <div>-1 رئيس الاسرة</div>
+                <div>-2 زوجة</div>
+                <div>-3 ابن(ة)</div>
+                <div>-4 حفيدة</div>
+                <div>-5 زوج(ة) ابن(ة)</div>
+                <div>-6 والد(ة) زوج(ة)</div>
+                <div>-7 قريب اخر
+                </div>
+                <div>-8 بدون قرلبة</div>
+            </p>
+        </td>
+        <td>
+            <p>
+                <div>-1 دكر</div>
+                <div>-2 انثى</div>
+            </p>
+        </td>
+        <td>
+            <p>
+                <div>-1 اعزب/عزباء</div> 
+                <div>-2 متزوج (ة)</div>
+                <div>-3 ارمل(ة)</div>
+                <div>-4 مطلق(ة)</div>
+            </p>
+        </td>
+        <td>
+            <p>
+                <div>بين اليوم و الشهر و السنة<br> (ادا لا تعرف تاريخ الميلاد ضع العمربالسنوات)</div>
+            </p>
+        </td>
+        <td></td>
+        <td>
+            <p>
+                <div>-1 لا شيء</div>
+                <div>-2 ابتدائي او اساسي مرحلة اولى</div>
+                <div>-3 اعدادي او اساسي مرحلة ثانية </div>
+                <div>-4 ثانوي</div>
+                <div>-5 جامعي</div>
+                <div>-98 لا تعرف</div>
+                <div>-99 ترفض الاجابة</div>
+
+            </p>
+        </td>
+        <td>
+            <p>
+                <div>امرة او فتاة مولودة قبل مارس 2007/عمرها بين 15سنة و 74 سنة</div>
+                <div>-1 نعم</div>
+                <div>-2 لا</div>
+            </p> 
+        </td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+    </tr>
+
+    <tr>
+        <td>01</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>05</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>06</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>07</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>08</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>09</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>
+            <input type="text" id="name" name="name"
+           minlength="4" maxlength="8" size="10">
+
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td>
+            <input type="number" id="tentacles" name="tentacles" required>  
+        </td>
+
+        <td><input type="date" id="start" name="trip-start"
+            value="2007-07-22"
+            ></td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+
+            <td>
+                <input type="number" id="tentacles" name="tentacles" required>  
+            </td>
+    </tr>
+        </table>
+        <br>
+ 
+        <h2><input type="submit" value="تابع"  onclick="window.location.href = './page2.html';"></h2>
+    </form>
+    
+<p id="afficher_cont"></p>
+
+<style>
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  * {
+    font-family: "Poppins";
+  }
+  
+  
+  p{
+    justify-content: center;
+  }
+  body {
+  
+    
+    display: flex;
+    justify-content: center;
+    
+    background: #dde5f4;
+    
+  }
+  input[type=submit] {
+    width: 150px;
+    padding: 10px;
+   
+    background-color: green;
+    color: aliceblue;
+  }
+  </style>
+
+
+  </body>
+</html>
